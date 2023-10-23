@@ -13,6 +13,7 @@ for ($i = 1; $i <= $rows; $i++) {
     }
 
     // Print asterisks
+    // This loop increases asterisks by 2 in each row
     for ($k = 1; $k <= 2 * $i - 1; $k++) {
         echo "*";
     }
